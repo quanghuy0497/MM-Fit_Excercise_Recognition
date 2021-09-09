@@ -1,0 +1,15 @@
+python train_vit.py --dropout=0.2 --batch_size=128 --lr=1e-03 --eval_every=2 --checkpoint=2 --weight_decay=1e-05 --epoch=20 --split_sample=10
+python train_vit.py --dropout=0.3 --batch_size=128 --lr=1e-05 --eval_every=5 --checkpoint=5 --weight_decay=3e-05 --epoch=25 --split_sample=10
+
+python train_mlp_mixer.py --dropout=0.2 --batch_size=128 --lr=1e-03 --eval_every=2 --checkpoint=2 --weight_decay=1e-05 --epoch=20 --split_sample=10
+python train_mlp_mixer.py --dropout=0.3 --batch_size=128 --lr=1e-05 --eval_every=5 --checkpoint=5 --weight_decay=3e-05 --epoch=25 --split_sample=10
+
+python train_vivit.py --dropout=0.2 --batch_size=1 --lr=1e-03 --eval_every=2 --checkpoint=2 --weight_decay=1e-05 --epoch=10 --split_sample=500
+python train_vivit.py --dropout=0.3 --batch_size=1 --lr=1e-03 --eval_every=5 --checkpoint=5 --weight_decay=3e-05 --epoch=10 --split_sample=500
+
+python train_vivit.py --dropout=0.3 --batch_size=1 --lr=1e-02 --eval_every=2 --checkpoint=2 --weight_decay=1e-02 --epoch=20 --split_sample=500
+
+
+split_sample=400, limit = 250
+
+
