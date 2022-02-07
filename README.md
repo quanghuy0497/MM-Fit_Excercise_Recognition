@@ -28,8 +28,8 @@ conda install -c conda-forge einops
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=10.2 -c pytorch
 ```
 
-<!-- ## Result
+## Result
 Result so far (up to Sep 9th, 2021):  
-	+ ViT: 56.32% Acc
-	+ MLP-Mixer: 74.44% Acc
-	+ Vivit: 79.69% Acc -->
+  + ViT: 56.32% Acc
+  + MLP-Mixer: 74.44% Acc
+  + Vivit: 79.69% Acc
